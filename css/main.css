@@ -1,0 +1,266 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#about, #services, #portfolio {
+  height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 600px;
+}
+
+header img {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 75px 0px;
+}
+
+header h1 {
+  clear: both;
+  color: #010101;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0px 200px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  width: 1000px;
+}
+
+header h2 {
+  color: #010101;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0px 200px;
+  padding: 20px 0;
+  width: 1000px;
+}
+
+/***** NAV *****/
+
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #d4af37;
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #73706b40;
+  text-align: center;
+}
+
+#about h3 {
+  color: #010101;
+  font-size: 30px;
+  font-weight: 300;
+  margin: auto;
+  padding: 50px 0px;
+  text-transform: uppercase;
+}
+
+#about img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  max-width: 200px;
+}
+
+#about p {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: auto;
+  padding: 50px 0px;
+  text-align: center;
+  width: 600px;
+}
+
+#about span {
+    font-weight: 600;
+}
+
+/***** SERVICES *****/
+
+#services h3 {
+  color: #010101;
+  font-size: 30px;
+  font-weight: 300;
+  margin: auto;
+  padding: 50px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#services .half-width {
+  border: 1px solid #010101;
+  border-radius: 25px;
+  height: 300px;
+  margin: 10px auto 0px 40px;
+  padding: 20px;
+  width: 500px;
+}
+
+#services h4 {
+  color: #010101;
+  font-size: 20px;
+  font-weight: 700;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  width: 450px;
+}
+
+#services h5 {
+  color: #010101;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  margin: auto;
+  text-align: center;
+  width: 450px;
+}
+
+#services h5 a {
+  color: #d4af37;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#services p {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: auto;
+  padding-bottom: 20px;
+  width: 450px;
+}
+
+#services p a {
+  color: #d4af37;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  background-color: #d4af3740;
+  text-align: center;
+}
+
+#portfolio h3 {
+  color: #010101;
+  font-size: 30px;
+  font-weight: 300;
+  margin: auto;
+  padding: 50px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#portfolio .third-width {
+  padding-top: 50px;
+}
+
+#portfolio img {
+  display: block;
+  margin: auto;
+  max-width: 350px;
+}
+
+#portfolio h4 {
+  color: #010101;
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#portfolio p {
+  color: #010101;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #73706b40;
+  height: 300px;
+  text-align: center;
+}
+
+#contact h3 {
+  color: #010101;
+  font-size: 30px;
+  font-weight: 300;
+  margin: auto;
+  padding: 50px 0px;
+  text-transform: uppercase;
+}
+
+#contact ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#contact ul li {
+  display: inline-block;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+#contact .copyright {
+  margin: 50px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#contact p {
+  color: #73706b;
+  font-size: 10px;
+  font-weight: 400;
+  margin: auto;
+  width: 400px;
+}
