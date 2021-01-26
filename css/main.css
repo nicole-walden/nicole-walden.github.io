@@ -62,12 +62,11 @@ header,
 /***** HEADER *****/
 
 header {
-	border-bottom: 3px solid #d4af37;
   text-align: center;
 }
 
 header .logo img {
-  max-width: 50%;
+  max-width: 40%;
   margin-top: 50px;
 }
 
@@ -76,8 +75,8 @@ header h1 {
   font-size: 1.875em;
   color: #010101;
 	margin: 0;
-  padding: 40px 20px 30px;
-  border-bottom: 3px solid #d4af37;
+  padding: 10px 0 30px;
+  border-bottom: 1px solid #d4af37;
   width: 100%;
 }
 
@@ -100,7 +99,7 @@ header h2 {
 /***** NAV *****/
 
 nav {
-  padding: 10px 0 30px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -248,10 +247,13 @@ nav a:visited {
   padding-top: 20px;
 }
 
-
 @media only screen and (min-width: 768px) {
     header h2 {
       line-height: 1.4em;
+    }
+
+    nav {
+      padding: 20px 0 10px;
     }
 
     nav ul {
@@ -290,7 +292,7 @@ nav a:visited {
       align-items: flex-start;
       margin: auto;
     }
-    
+
     .portfolio-item {
       width: 33%;
     }
@@ -301,4 +303,50 @@ nav a:visited {
 }
 
 @media only screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header .logo img {
+    max-width: 35%;
+  }
+
+  header h1 {
+    font-size: 2em;
+    width: 100%;
+    padding: 30px;
+  }
+
+  header h1 span {
+    font-size: 1.5em;
+  }
+
+  header h2 {
+    padding: 20px;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3 {
+    font-size: 3em;
+    margin: 30px;
+  }
+
+  .about-p {
+    width: 60%;
+  }
+
+  #about img {
+    max-width: 20%;
+    margin: 0 200px;
+  }
 }
