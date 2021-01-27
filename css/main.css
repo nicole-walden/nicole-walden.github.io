@@ -120,6 +120,7 @@ nav ul li {
 
 nav a {
   text-decoration: none;
+  color: inherit;
 }
 
 nav a:visited {
